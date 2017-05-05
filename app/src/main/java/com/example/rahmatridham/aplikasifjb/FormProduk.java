@@ -34,6 +34,7 @@ public class FormProduk extends AppCompatActivity {
         });
 
         oke = (Button) findViewById(R.id.buttonOk);
+
         oke.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -45,5 +46,5 @@ public class FormProduk extends AppCompatActivity {
         });
     }
 
-    
+
 }
